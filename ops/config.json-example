@@ -1,0 +1,24 @@
+{
+  "logger": {
+    "description": "logger process",
+    "path": "../logger/logger.js",
+    "options": [],
+    "respawn": true
+  },
+  "sources": [
+    {
+      "description": "tick data source",
+      "path": "../tick/tick.js",
+      "options": [ "--interval=15" ],
+      "respawn": true
+    }
+  ],
+  "apis": [
+    {
+      "description": "JSON API",
+      "path": "../api-json/api-json.js",
+      "options": [ "--port=9999"],
+      "respawn": true
+    }
+  ]
+}

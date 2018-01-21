@@ -1,0 +1,17 @@
+
+/Done
+/node_modules
+
+## Directory-based project format:
+.idea/
+
+# ignore emacs backup files
+*~
+
+# ignore log files
+
+config.json
+
+node_modules/
+
+LOG

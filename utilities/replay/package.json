@@ -1,0 +1,17 @@
+{
+  "name": "replay",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": "git@github.com:dcornejo/hairy-monkey.git",
+  "description": "replay a log file into DCS",
+  "author": "Dave Cornejo <dave@dogwood.com>",
+  "main": "replay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-getopt": "^0.2.3",
+    "redis": "^2.7.1",
+    "thread-sleep": "^2.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+2.0.1
+
+The default log file now includes the date and time (UTC) in its name so that you
+won't overwrite existing files

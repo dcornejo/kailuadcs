@@ -1,0 +1,17 @@
+{
+  "name": "DcsJsonApi",
+  "version": "2.0.0",
+  "license": "UNLICENSED",
+  "repository": "git@github.com:dcornejo/hairy-monkey.git",
+  "description": "DCS JSON API Provider",
+  "author": "Dave Cornejo <dave@dogwood.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "node-getopt": "^0.2.3",
+    "redis": "^2.6.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "api-sse",
+  "version": "1.0.0",
+  "description": "DCS SSE API Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Cornejo <dave@dogwood.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "good": "^7.1.0",
+    "good-console": "^6.2.0",
+    "good-squeeze": "^5.0.1",
+    "hapi": "^16.0.1",
+    "printf": "^0.2.5",
+    "redis": "^2.6.3",
+    "susie": "^2.0.0"
+  }
+}
