@@ -1,3 +1,14 @@
+# Kailua Data Collection System (KailuaDCS)
+
+This code originally was originally proprietary and has been re-released
+as open-source. In the process of removing non-public parts, you may find holes
+in the code and documentation where things were unceremoniously ripped out.
+
+This code has not been tested since it's import into the repository.
+
+I am working on making sure it is good as quickly as I can, pull requests are
+welcome, but please take a look at TODO first.
+
 # Installation
 
 We currently support installation on Ubuntu Linux 16.04 and Mac OS X.
@@ -5,10 +16,7 @@ Other Linux versions and FreeBSD may work, but support is not guaranteed.
 
 ## Getting the installation files
 
-The recommended method is to clone the [github repo](https://github.com/dcornejo/hairy-monkey).
-
-If the system you are installing on is not network connected, you can get a zip file from 
-[https://github.com/dcornejo/hairy-monkey/archive/master.zip](https://github.com/dcornejo/hairy-monkey/archive/master.zip)
+The recommended method is to clone the [github repo](https://github.com/dcornejo/kailuadcs.git).
 
 ## Ubuntu
 

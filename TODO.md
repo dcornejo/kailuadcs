@@ -15,12 +15,8 @@ redis is opened early and we can report these errors via the logger. An enhancem
 the logger is to have it watch for error messages and to console log them regardless of
 the verbosity setting.
 
-## Split commons things into packages
+## rearrange directories to group by function (core, data sources, apps, and utilities)
 
-Evaluate the code to see if we can move common code to a package to ease maintenance and
-reduce the template data source or API to a minimum.
+## move non-core function to plug-ins and load them dynamically depending upon the configuration
 
-Things we might be able to package:
-- redis writes to DcsLogger (writeLog())
-- read commands from DcsFeed
 
